@@ -1,0 +1,115 @@
+/* Smooth Gradient Background */
+/* Header Container - Flexbox Layout */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Profile Image - Circular Shape */
+.profile-img {
+    width: 250px; /* Adjust size */
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Animated Heading */
+.animated-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff5e62;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    animation: fadeIn 2s;
+    padding: 20px;
+}
+
+/* Introduction Box with Stylish Square Border */
+#intro {
+    background: #222;
+    padding: 15px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 15px;
+    border: 3px solid #ffcc00;
+    box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.8);
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Recipe Section - Beautiful UI */
+.recipe {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.recipe h3 {
+    color: #ff5e62;
+    font-size: 24px;
+}
+
+.recipe ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Contact Section - Clickable Links with Hover Effect */
+#contact a {
+    display: block;
+    background: #333;
+    color: yellow;
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+#contact a:hover {
+    background: #ff5e62;
+    transform: scale(1.05);
+    }
